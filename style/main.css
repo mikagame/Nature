@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+header img {
+  width: 10%;
+  max-width: 135px;
+  min-width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 30px 0px 30px 0px;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #5faaa5;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-left: 30px;
+}
+nav a:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 160px;
+}
+main h1 {
+  margin-bottom: 20px;
+}
+main img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 400px;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 30px;
+  background-color: #5faaa5;
+  color: white;
+}
+footer ul {
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 850px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav a {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  nav main {
+    margin-bottom: 100px;
+  }
+}/*# sourceMappingURL=main.css.map */
