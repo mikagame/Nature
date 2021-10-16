@@ -15,10 +15,11 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 95%;
     max-width: 1000px;
     margin: 30px 0px 30px 0px;
-    padding: 20px;
+    padding: 30px;
     a {
         font-size: 20px;
         font-weight: bold;
@@ -32,8 +33,21 @@ nav {
         box-shadow: 8px 8px 6px grey;
         &:hover {
             box-shadow: 12px 12px 10px rgb(75, 75, 75);
-            color:  #00534e;
+            color:  #0e008f;
         }
+     
+    
+    }
+    p {
+        font-size: 22px;
+        font-weight: bold;
+        background-color: white;
+        padding: 16px;
+        border-radius: 10px;
+        margin-left: 30px;
+        box-shadow: 12px 12px 10px rgb(75, 75, 75);
+        color: #f5aa1f;
+      
     }
 }
 
