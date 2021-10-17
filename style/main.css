@@ -95,6 +95,9 @@ footer {
   background-color: #5faaa5;
   color: white;
 }
+footer .contact {
+  display: flex;
+}
 footer ul {
   display: flex;
   flex-direction: column;
@@ -116,6 +119,17 @@ footer li {
   margin-bottom: 5px;
 }
 
+@media only screen and (min-width: 880px) and (max-width: 1080px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  nav a, nav p {
+    margin-bottom: 20px;
+  }
+}
 @media only screen and (max-width: 880px) {
   nav {
     display: grid;
@@ -142,15 +156,23 @@ footer li {
   footer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    padding: 50px 20px 50px 20px;
   }
   footer ul {
     padding: 0;
     margin-top: 10px;
   }
+  footer .contact {
+    flex-direction: column;
+  }
+  footer img {
+    margin-bottom: 30px;
+  }
 }
 .presentation {
-  width: 70%;
+  width: 80%;
+  text-align: justify;
   margin: 30px 0 0px 0;
   display: flex;
   flex-direction: column;
@@ -196,8 +218,9 @@ footer li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75%;
+  width: 80%;
   margin: 30px 0 0px 0;
+  text-align: justify;
 }
 .naturo h2 {
   margin-bottom: 40px;
@@ -210,7 +233,8 @@ footer li {
 }
 
 .naturoPrix {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   border: 1px solid #5faaa5;
   padding: 10px;
@@ -219,6 +243,7 @@ footer li {
 }
 .naturoPrix h3 {
   margin-bottom: 20px;
+  margin-left: 20px;
   font-size: 20px;
   font-weight: bold;
   color: #2763a7;
@@ -226,10 +251,33 @@ footer li {
 }
 .naturoPrix p {
   margin-bottom: 10px;
+  margin-left: 20px;
   font-size: 18px;
 }
 .naturoPrix span {
   font-size: 20px;
   font-weight: bold;
   color: #2763a7;
+}
+
+.respiration {
+  width: 80%;
+  margin: 30px 0 0px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.respiration h2, .respiration h3, .respiration p {
+  font-size: 20px;
+  font-weight: normal;
+}
+.respiration h3 {
+  margin-bottom: 20px;
+}
+.respiration ul {
+  margin-top: 20px;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  font-size: 22px;
 }/*# sourceMappingURL=main.css.map */
