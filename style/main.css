@@ -96,6 +96,16 @@ footer {
 }
 footer ul {
   margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  list-style: none;
+}
+footer ul a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
 }
 footer img {
   width: 10%;
@@ -198,7 +208,17 @@ footer img {
 }
 .naturoPrix h3 {
   margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2763a7;
+  text-decoration: underline;
 }
 .naturoPrix p {
   margin-bottom: 10px;
+  font-size: 18px;
+}
+.naturoPrix span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2763a7;
 }/*# sourceMappingURL=main.css.map */

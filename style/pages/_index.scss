@@ -90,6 +90,16 @@ footer {
 
     ul {
         margin-left: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        list-style: none;
+        a {
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
     }
     img {
         width: 10%;
