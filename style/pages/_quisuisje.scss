@@ -1,14 +1,20 @@
 .presentation {
-    width: 75%;
+    width: 70%;
     margin: 30px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h2, h3, h4 {
         margin-bottom: 40px;
         font-size: 20px;
     }
+    h4 {
+        width: 100%;
+    }
 }
 
 #qui {
-    #firstImg {
+   /* #firstImg {
         width: 50%;
         object-fit: cover;
         max-width: 400px;
@@ -17,6 +23,15 @@
         box-shadow: 8px 8px 8px grey;
     }
     #secondImg {
+        width: 70%;
+        object-fit: cover;
+        max-width: 500px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 8px 8px 8px grey;
+    }*/
+
+    img {
         width: 70%;
         object-fit: cover;
         max-width: 500px;

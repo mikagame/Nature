@@ -1,3 +1,9 @@
+#home {
+    h1 {
+        margin-bottom: 50px;
+    }
+}
+
 header {
     display: flex;
    justify-content: center;
@@ -16,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
     max-width: 1000px;
     margin: 30px 0px 30px 0px;
     padding: 30px;
@@ -29,25 +35,28 @@ nav {
         padding: 12px;
         border-radius: 10px;
         transition: 0.3s;
-        margin-left: 30px;
+        margin-left: 20px;
         box-shadow: 8px 8px 6px grey;
+        width: 150px;
+        text-align: center;
         &:hover {
             box-shadow: 12px 12px 10px rgb(75, 75, 75);
-            color:  #0e008f;
+            color:  #305351;
         }
      
     
     }
     p {
-        font-size: 22px;
+        font-size: 20px;
+        width: 150px;
         font-weight: bold;
         background-color: white;
-        padding: 16px;
+        padding: 12px;
         border-radius: 10px;
-        margin-left: 30px;
+        margin-left: 20px;
         box-shadow: 12px 12px 10px rgb(75, 75, 75);
         color: #f5aa1f;
-      
+        text-align: center;
     }
 }
 
@@ -73,6 +82,8 @@ main {
 
 footer {
     position: sticky;
+    display: flex;
+    align-items: center;
     padding: 30px;
     background-color:  #5faaa5;
     color: white;
@@ -80,6 +91,12 @@ footer {
     ul {
         margin-left: 40px;
     }
+    img {
+        width: 10%;
+        max-width: 135px;
+        min-width: 80px;
+        object-fit: contain;
+       }
 }
 
 @media only screen and (max-width: 880px) {
@@ -88,12 +105,20 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+       align-items: center;
        
         a{
             font-size: 15px;
             width: 150px;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            position: relative;
+            font-size: 15px;
+            bottom: 10px;
+           
+           
         }
         
     }
