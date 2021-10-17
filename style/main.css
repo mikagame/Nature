@@ -407,4 +407,49 @@ footer li {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+.deroul span, .price span, .acompte span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2763a7;
+}
+
+.red {
+  color: red;
+}
+
+#contact {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+#contact ul {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  margin-left: 30px;
+  list-style: none;
+  font-size: 20px;
+  background-color: #325852;
+  box-shadow: 12px 12px 10px #4b4b4b;
+  color: white;
+}
+#contact ul a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+#contact ul a span {
+  border-bottom: 2px solid white;
+  transition: 0.2s;
+}
+#contact ul a span:hover {
+  border-bottom: 2px solid #ff9306;
+}
+#contact ul a:hover {
+  color: #ff9306;
+}
+#contact ul li {
+  margin-bottom: 5px;
 }/*# sourceMappingURL=main.css.map */
