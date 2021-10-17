@@ -97,14 +97,19 @@ footer {
 }
 footer .contact {
   display: flex;
+  padding: 20px;
 }
 footer ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 30px 0 30px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  margin-left: 30px;
   list-style: none;
   font-size: 20px;
+  background-color: #325852;
+  box-shadow: 12px 12px 10px #4b4b4b;
 }
 footer ul a {
   text-decoration: none;
@@ -139,7 +144,7 @@ footer li {
     padding-bottom: 0;
   }
 
-  #home h1 {
+  h1 {
     font-size: 25px;
     margin-bottom: 50px;
   }
@@ -174,8 +179,7 @@ footer li {
     padding: 50px 20px 50px 20px;
   }
   footer ul {
-    padding: 0;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
   footer .contact {
     flex-direction: column;
@@ -272,6 +276,10 @@ footer li {
   font-size: 20px;
   font-weight: bold;
   color: #2763a7;
+}
+
+#respi h1 {
+  font-size: 22px;
 }
 
 .respiration {
