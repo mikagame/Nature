@@ -131,6 +131,11 @@ footer li {
   }
 }
 @media only screen and (max-width: 880px) {
+  #home h1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -139,7 +144,7 @@ footer li {
   }
   nav a {
     font-size: 15px;
-    width: 150px;
+    width: 100px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -147,6 +152,7 @@ footer li {
     position: relative;
     font-size: 15px;
     bottom: 10px;
+    width: 100px;
   }
 
   main {
@@ -265,6 +271,7 @@ footer li {
   margin: 30px 0 0px 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: justify;
 }
 .respiration h2, .respiration h3, .respiration p {
@@ -280,4 +287,43 @@ footer li {
   list-style: none;
   font-weight: bold;
   font-size: 22px;
+}
+.respiration img {
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 500px;
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 8px 8px 8px grey;
+}
+
+.respiPrix {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border: 1px solid #5faaa5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px grey;
+}
+.respiPrix h3 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2763a7;
+  text-decoration: underline;
+}
+.respiPrix p {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.respiPrix span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2763a7;
 }/*# sourceMappingURL=main.css.map */
