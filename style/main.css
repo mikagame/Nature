@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   background-color: #5faaa5;
 }
 header img {
@@ -129,8 +129,16 @@ footer li {
   nav a, nav p {
     margin-bottom: 20px;
   }
+
+  main {
+    padding-bottom: 80;
+  }
 }
 @media only screen and (max-width: 880px) {
+  main {
+    padding-bottom: 0;
+  }
+
   #home h1 {
     font-size: 25px;
     margin-bottom: 50px;
