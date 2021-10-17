@@ -31,7 +31,7 @@ nav {
         font-weight: bold;
         text-decoration: none;
         background-color: white;
-        color:  #5faaa5;
+        color:  #1e7973;
         padding: 12px;
         border-radius: 10px;
         transition: 0.3s;
@@ -41,7 +41,7 @@ nav {
         text-align: center;
         &:hover {
             box-shadow: 12px 12px 10px rgb(75, 75, 75);
-            color:  #305351;
+            transform: scale(1.1);
         }
      
     
@@ -55,7 +55,7 @@ nav {
         border-radius: 10px;
         margin-left: 20px;
         box-shadow: 12px 12px 10px rgb(75, 75, 75);
-        color: #f5aa1f;
+        color: #f8591a;
         text-align: center;
     }
 }
